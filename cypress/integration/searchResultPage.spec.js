@@ -1,11 +1,12 @@
 describe("SearchResult page", function() {
+    //For testing open Search result page directly from URL
 	  it("when you open result page directly from url it should show empty result and a link to search page", function () {
 			cy.visit('http://hotelsearch.surge.sh/result')
 			cy.contains('Search again').should('be.visible').log("Link to Search Page is displayed")
 			cy.contains('No results').should('be.visible').log("No result is displayed")
 			cy.wait(2000)
 	  })
-	  
+	  //For testing Search result page from Search page
 	  it("when you open it from the search page you there is no result should also show empty result with link", function () {
 			cy.visit('http://hotelsearch.surge.sh')
 			cy.wait(2000)
