@@ -1,0 +1,19 @@
+{
+  "name": "hoteltask",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chai-webdriver": "^1.2.0",
+    "cypress": "^1.4.2",
+    "jest": "^22.0.6",
+    "json-server": "^0.12.1",
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "start": "json-server --watch hotels.json",
+    "test": "jest __tests__/**",
+    "e2e": "cypress open"
+  },
+  "devDependencies": {}
+}
