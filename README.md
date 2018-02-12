@@ -129,30 +129,30 @@ Implementations focusing on **quality over feature completeness** will be highly
 ##Code Usage
 How to run integration and e2e tests
 For integration testing
--Make sure Node js is installed [https://nodejs.org](https://nodejs.org)
--Make sure axios is installed [https://github.com/axios/axios](https://github.com/axios/axios)
--Make sure jest is installed
-1-Clone the repository
-2-Open windows power shell
-3-cd path   
-4-run npm start 
-5-In browser open http://localhost:3000/hotels 
-6-open another windows shell ,cd path (path to test.js) 
-7-run command npm run test
+- Make sure Node js is installed [https://nodejs.org](https://nodejs.org)
+- Make sure axios is installed [https://github.com/axios/axios](https://github.com/axios/axios)
+- Make sure jest is installed
+- Clone the repository
+- Open windows power shell
+- cd path   
+- run npm start 
+- In browser open http://localhost:3000/hotels 
+- open another windows shell ,cd path (path to test.js) 
+- run command npm run test
 
 
 
 For Running E2E Test :
--Cypress should be installed https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress
--Node js should be installed [https://nodejs.org](https://nodejs.org)
-1-Clone the repository
-2-Open windows power shell
-3-cd path  for example : C:\Users\Downloads\AUser\testing-task-master
-4-Run command   ./node_modules/.bin/cypress open
-5-Select js file searchpgae.js
-Same steps for searchRedultPage.js
+- Cypress should be installed https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress
+- Node js should be installed [https://nodejs.org](https://nodejs.org)
+- Clone the repository
+- Open windows power shell
+- cd path  for example : C:\Users\Downloads\AUser\testing-task-master
+- Run command   ./node_modules/.bin/cypress open
+- Select js file searchpgae.js
+- Same steps for searchRedultPage.js
 
-Please make sure to run using Chrome Brower
+##Please make sure to run using Chrome Brower
 
 
 
