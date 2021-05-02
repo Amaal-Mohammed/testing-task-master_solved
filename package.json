@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "chai-webdriver": "^1.2.0",
     "cypress": "^1.4.2",
     "jest": "^22.0.6",
