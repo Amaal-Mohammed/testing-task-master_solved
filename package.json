@@ -6,7 +6,7 @@
     "axios": "^0.17.1",
     "chai-webdriver": "^1.2.0",
     "cypress": "^1.4.2",
-    "jest": "^22.0.6",
+    "jest": "^29.3.1",
     "json-server": "^0.12.1",
     "request": "^2.83.0"
   },
